@@ -21,12 +21,12 @@ Provides: seqdiag-python3
 BuildRequires : docutils
 BuildRequires : nose
 BuildRequires : olefile
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(blockdiag)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 `seqdiag` generate sequence-diagram image file from spec-text file.
