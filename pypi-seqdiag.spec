@@ -4,7 +4,7 @@
 #
 Name     : pypi-seqdiag
 Version  : 3.0.0
-Release  : 37
+Release  : 38
 URL      : https://files.pythonhosted.org/packages/9b/66/7d344b87f0a4ce761efe8a16fa41bad28d4685502540899004c5b3ca34ca/seqdiag-3.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9b/66/7d344b87f0a4ce761efe8a16fa41bad28d4685502540899004c5b3ca34ca/seqdiag-3.0.0.tar.gz
 Summary  : seqdiag generates sequence-diagram image from text
@@ -15,18 +15,15 @@ Requires: pypi-seqdiag-license = %{version}-%{release}
 Requires: pypi-seqdiag-python = %{version}-%{release}
 Requires: pypi-seqdiag-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: seqdiag
-Provides: seqdiag-python
-Provides: seqdiag-python3
 BuildRequires : docutils
 BuildRequires : nose
 BuildRequires : olefile
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
 BuildRequires : pypi(blockdiag)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 `seqdiag` generate sequence-diagram image file from spec-text file.
@@ -80,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641497093
+export SOURCE_DATE_EPOCH=1649701381
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
