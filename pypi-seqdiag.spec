@@ -4,7 +4,7 @@
 #
 Name     : pypi-seqdiag
 Version  : 3.0.0
-Release  : 39
+Release  : 40
 URL      : https://files.pythonhosted.org/packages/9b/66/7d344b87f0a4ce761efe8a16fa41bad28d4685502540899004c5b3ca34ca/seqdiag-3.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9b/66/7d344b87f0a4ce761efe8a16fa41bad28d4685502540899004c5b3ca34ca/seqdiag-3.0.0.tar.gz
 Summary  : seqdiag generates sequence-diagram image from text
@@ -15,11 +15,11 @@ Requires: pypi-seqdiag-license = %{version}-%{release}
 Requires: pypi-seqdiag-python = %{version}-%{release}
 Requires: pypi-seqdiag-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : nose
-BuildRequires : olefile
 BuildRequires : pypi(blockdiag)
 BuildRequires : pypi(py)
 BuildRequires : pypi-docutils
+BuildRequires : pypi-nose
+BuildRequires : pypi-olefile
 BuildRequires : pypi-pluggy
 BuildRequires : pypi-pytest
 BuildRequires : pypi-tox
@@ -77,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1649966623
+export SOURCE_DATE_EPOCH=1650498913
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
