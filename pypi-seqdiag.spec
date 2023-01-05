@@ -4,7 +4,7 @@
 #
 Name     : pypi-seqdiag
 Version  : 3.0.0
-Release  : 47
+Release  : 48
 URL      : https://files.pythonhosted.org/packages/9b/66/7d344b87f0a4ce761efe8a16fa41bad28d4685502540899004c5b3ca34ca/seqdiag-3.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9b/66/7d344b87f0a4ce761efe8a16fa41bad28d4685502540899004c5b3ca34ca/seqdiag-3.0.0.tar.gz
 Summary  : seqdiag generates sequence-diagram image from text
